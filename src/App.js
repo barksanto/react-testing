@@ -18,6 +18,11 @@ function App() {
         >
           AnyFans Website link
         </a>
+        <ul>
+          <li>Apple 🍎</li>
+          <li>Banana 🍌</li>
+          <li>Orange 🍊</li>
+        </ul>
       </header>
     </div>
   )

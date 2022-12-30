@@ -20,4 +20,12 @@ describe("App", () => {
     // assert that the image element is in the document (does it exist in the doc?)
     expect(imageElement).toBeInTheDocument()
   })
+
+  it("renders 3 list items", () => {
+    render(<App />)
+
+    // cmd click for line test
+    const listElements = screen.getAllByRole("listitem")
+    expect(listElements).toHaveLength(3)
+  })
 })

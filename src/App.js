@@ -10,13 +10,13 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          data-testid="learn-react-link"
+          data-testid="target-link-anchor"
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.anyfans.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          AnyFans Website link
         </a>
       </header>
     </div>

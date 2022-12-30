@@ -1,11 +1,12 @@
-import logo from "./logo.svg"
+// import logo from "./logo.svg"
 import "./App.css"
+import Login from "./Components/Login"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App" data-testid="App">
+      {/* <header className="App-header">
+        <img className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,7 +24,8 @@ function App() {
           <li>Banana 🍌</li>
           <li>Orange 🍊</li>
         </ul>
-      </header>
+      </header> */}
+      <Login />
     </div>
   )
 }

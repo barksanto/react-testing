@@ -5,7 +5,7 @@ function Login() {
     <div className="container">
       <form>
         <input type="text"/>
-        <input type="password"/>
+        <input type="curent-password"/>
         <button>Login</button>
       </form>
     </div>

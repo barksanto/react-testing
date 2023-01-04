@@ -12,6 +12,7 @@ describe("App", () => {
   //   // assert that the link element is in the document (does it exist in the doc?)
   //   expect(linkElement).toBeInTheDocument()
   // })
+  // @ http://localhost:51245/
   it("renders a div with classname App", () => {
     render(<App />)
     // @ select this div element by its class

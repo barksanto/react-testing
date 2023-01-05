@@ -4,7 +4,8 @@ function Login() {
   return (
     <div className="container">
       <form>
-        <input type="text"/>
+
+        <input type="text" placeholder='username'/>
         <input type="curent-password"/>
         <button>Login</button>
       </form>
